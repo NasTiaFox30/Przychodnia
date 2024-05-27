@@ -1,0 +1,49 @@
+article{
+    width: 100%;
+}
+
+form{
+    margin: 0 auto;
+    display: grid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+    padding: 15px;
+    width: 500px;
+    height: 600px;
+    
+    background-color: rgb(216, 229, 235);
+    border-radius: 5px;
+
+}
+input{
+    margin: 20px;
+    border-radius: 5px;
+    border-style:none;
+}
+input[type=submit]{
+    background-color:rgb(81, 128, 215);
+    color: beige;
+}
+input[type=submit]:hover{
+    background-color:rgb(168, 198, 255);
+}
+
+article h2{
+    text-align: center;
+    width: max-content;
+    border-radius: 6px;
+    margin: auto;
+
+    font-size: x-large;
+}
+
+section{
+    display: flex;
+}
+#note{
+    font-size: x-large;
+    text-align: center;
+    width: 40%;
+    align-self: center;
+}

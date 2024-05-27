@@ -1,0 +1,82 @@
+#galeria img{
+    width: 300px;
+}
+#galeria a{
+    float: inline-end;
+    align-self: center;
+}
+
+
+
+aside{
+    float: right;
+    background-color: #dfebf6;
+    width: 30%;
+    border-radius: 10px;
+    height: 650px;
+}
+article{
+    width: 70%;
+}
+
+
+#news{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+aside p{
+    text-align: center;
+    font-size: large;
+}
+
+
+#usługi{
+    padding: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#usługi a{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #9bc8ee;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+#usługi img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#laboratorium{
+    padding: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#laboratorium a{
+    align-items: center;
+    margin: 20px;
+    background-color:gainsboro;
+    color: rgb(0, 0,0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#NFZ a{
+    border-radius: 5px;
+    color: rgb(2, 2, 182);
+    font-weight: bolder;
+}
+#NFZ{
+    padding: 30px;
+}
+
+tr:hover {background-color: rgb(243, 243, 243);}

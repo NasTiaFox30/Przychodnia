@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    
+    font-family: "Battambang", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    background-image: url(./media/Tło.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+#panel{
+    background-color: #7dbaef;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+#linki{
+    list-style-type: none;
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+#logowanie{
+    width: 20%;
+    list-style-type: none;
+    
+    
+}
+#logowanie li{
+    color: #004bc4;
+}
+
+#linki li{
+    color: beige;
+    font-size: 20px;
+}
+
+#linki li:hover{
+    color:#5888d4;
+}
+#logowanie li:hover{
+    color: #dfebf6;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logowanie{
+    float: right;
+    background-color:#c4ddf4;
+    border-radius: 3px;
+}
+
+
+
+
+section{
+    
+    min-height: 600px ;
+    max-height: auto;
+    padding: 10px;
+
+    font-family: "Battambang", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}
+
+article{
+    float: left;
+}
+
+
+
+
+h3{
+    padding: 5px;
+    background-color: #dfebf6;
+    border-radius: 5px;
+    width: auto;
+}
+h2{
+    padding: 5px;
+    font-size:20px;
+    background-color:#c0d8ed;
+}
+
+
+
+footer{
+    background-color: #7dbaef;
+    /* padding: 20px; */
+    padding-inline: 50px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer pre, p{
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+.kontakt{
+    display: flex;
+}
+address{
+    margin: 20px;
+}
+
+
+
+
+
+
+/*FONTs*/
+.battambang-thin {
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .battambang-light {
+    font-family: "Battambang", system-ui;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .battambang-regular {
+    font-family: "Battambang", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .battambang-bold {
+    font-family: "Battambang", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .battambang-black {
+    font-family: "Battambang", system-ui;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+

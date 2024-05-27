@@ -1,0 +1,48 @@
+/* Tabela */
+#otwarcie, th, td {
+    border: 1px solid white;
+    border-spacing: 3px;
+    color: beige;
+}
+th, td {
+    background-color: #7dbaef;;
+    border-radius: 5px;
+    padding: 15px;
+    border-style: outset;
+    
+    padding: 15px;
+    
+}
+
+
+#specjaliści{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+#specjaliści h3{
+  background-color: white;
+}
+aside{
+  float: right;
+  background-color: #dfebf6;
+  width: 70%;
+  border-radius: 10px;
+  height: 650px;
+
+  background-image: url(./media/Tło2.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+aside p{
+  margin: 20px;
+}
+
+
+
+
+article{
+  float: left;
+  width: 30%;
+}
